@@ -141,9 +141,9 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: `Freelance System`,
-        short_name: `Freelance System`,
-        description: `A Freelance System`,
+        name: `News Room`,
+        short_name: `News Room`,
+        description: `News Room`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
@@ -153,22 +153,8 @@ module.exports = configure(function (ctx) {
             src: 'assets/icons/icon-16x16.png',
             sizes: '16x16',
             type: 'image/png'
-          },
-          {
-            src: 'assets/icons/icon-32x32.png',
-            sizes: '32x32',
-            type: 'image/png'
-          },
-          {
-            src: 'assets/icons/icon-192x192.png',
-            sizes: '192x192',
-            type: 'image/png'
-          },
-          {
-            src: 'assets/icons/icon-384x384.png',
-            sizes: '384x384',
-            type: 'image/png'
           }
+          
         ]
       }
     },

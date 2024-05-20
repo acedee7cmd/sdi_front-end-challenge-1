@@ -1,0 +1,360 @@
+$text-shadow: 1px 1px 2px $dark;
+$text-shadow: none;
+
+.notif-count {
+	color: $white;
+	background-color: #DB0007;
+	border-radius: 50%;
+	position: absolute;
+	font-size: 10px;
+	width: 16px;
+	height: 16px;
+	top: -2px;
+	right: -0.5px;
+	line-height: 1.6em;
+	font-weight: bold;
+}
+
+.x-button{
+  color: $white;
+  background-color: #FF5252;
+  border-radius: 50%;
+  position: absolute;
+  font-size: 12px;
+  width: 24px;
+  height: 8px;
+  top: -2px;
+  right: -7.5px;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+
+.trash-button{
+  color: $white;
+  background-color: #FF5252;
+  border-radius: 50%;
+  position: absolute;
+  font-size: 12px;
+  width: 24px;
+  height: 8px;
+  top: -10px;
+  right: -10px;
+  line-height: 1.2em;
+  font-weight: bold;
+}
+
+.notification-card {
+	transition: background 0.5s ease;
+	transition: transform 0.2s ease-in-out;
+}
+
+.notification-card:hover {
+	cursor: pointer;
+	background: $secondary;
+	border-radius: 5px;
+	transform: scale(1.05);
+}
+
+.unread {
+	background: $primary;
+	width: 8px;
+	height: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border-radius: 50%;
+}
+
+.notification-loader {
+	position: absolute;
+	z-index: 2;
+	left: 45%;
+}
+
+.font_normal {
+	font-weight: normal !important;
+}
+
+.font_bold {
+	font-weight: bold !important;
+}
+
+.font_italic {
+	font-weight: italic !important;
+}
+
+.hide {
+	display: none !important;
+}
+
+.show {
+	display: block !important;
+}
+
+.font_normal {
+	font-weight: normal !important;
+}
+
+.font_bold {
+	font-weight: bold !important;
+}
+
+.font_italic {
+	font-weight: italic !important;
+}
+
+.login-page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.login-card {
+	width: 55%;
+	height: 600px;
+	background-color: $white;
+	border-radius: 20px;
+	box-shadow: 0 3px 3px $outline;
+  outline: 1px $info solid;
+}
+
+.left-section {
+	margin-top: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image-container {
+	width: 80%;
+}
+
+.right-section {
+	margin-top: 15%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.field-container {
+	width: 90%;
+}
+
+.q-field__messages {
+	color: $negative;
+}
+
+.bottom-text,
+p {
+	color: $primary;
+	font-size: 18px;
+}
+
+.login-btn {
+	background-color: $primary;
+	font-weight: 900;
+	font-size: 18px;
+	width: 200px;
+	height: 50px;
+	color: $secondary;
+	border-radius: 20px;
+	text-transform: capitalize;
+}
+
+.forgot-pword-link {
+	cursor: pointer;
+}
+
+.text-title-login {
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.gray-background {
+	background: rgb(207, 207, 207);
+}
+
+.custom_selected .q-field__native {
+	color: #000000;
+	font-weight: bolder !important;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #000;
+}
+
+
+.q-item-section {
+	padding-left: 55px;
+}
+
+.sidenav-list {
+  .q-item {
+    color: $dark;
+  }
+}
+
+.selected-sidenav {
+  &.q-router-link--active {
+    background-color: #008cff;
+    color: $white;
+    // border-right: solid 5px #EEFF41;
+    border-right: solid 5px grey;
+    
+    .text-expansion {
+      color: $white;
+      font-weight: bolder;
+    }
+
+    .q-icon{
+      color: $white !important;
+    }
+  }
+}
+
+.mcdo-login-img,
+.mcdo-login-username {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mcdo-login-username {
+	margin-top: -20px;
+}
+
+.mcdo-login-username p {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.hand-cursor {
+	cursor: pointer;
+}
+
+.home-button {
+	margin: 10px;
+	padding: 50px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.home-button-text {
+	position: absolute;
+	bottom: 7%;
+	width: 100%;
+	left: 0%;
+	text-transform: capitalize;
+	font-size: 17px;
+}
+
+.search-text {
+	background-color: $white;
+	font-weight: bold;
+	color: $dark;
+	border-radius: 70px;
+	border-bottom: none !important;
+	width: 55%;
+}
+
+.table thead tr {
+	background-color: $white !important;
+	color: $dark !important;
+}
+
+.table th {
+	font-weight: bold !important;
+}
+
+.select-options {
+	background-color: $white;
+	border-radius: 70px;
+	padding: 0 20px;
+	margin-right: 8px;
+}
+
+.select-options .q-field__messages div {
+	color: $dark;
+}
+
+.q-field__native span {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+	.order-details {
+		position: absolute;
+		background: rgb(229, 229, 229);
+		display: none;
+		max-height: 82vh !important;
+	}
+
+	.q-pa-lg {
+		padding: 0px !important;
+	}
+
+	.float-right {
+		float: none;
+	}
+}
+
+.q-item__label--caption{
+  color: yellow !important;
+}
+
+@keyframes colorChange {
+  from {
+    background-color: transparent;
+    color: inherit;
+  }
+
+  to {
+    background-color: #E0E0E0;
+    color: #fff;
+  }
+}
+
+.course-card{
+  cursor: pointer;
+  border: #9E9E9E 1px solid;
+}
+
+.course-select{
+  border: $dark 1px solid;
+}
+
+.course-card:hover {
+  animation: colorChange 0.5s forwards;
+}
+
+.video-player{
+  height: 200px; 
+  width: auto; 
+  margin-top: 5px;
+}
+
+.text-align-center{
+  display: block; text-align: center;
+}
+
+.custom-dialog {
+  background-color: #EAB106;
+  color: #000;
+  /* Add any other custom styling you need */
+}
+
+.custom-dialog strong {
+  color: #fff;
+  font-weight: bolder;
+  /* Add any other custom styling you need */
+}
+
+.badges{
+  padding: 7px 10px 7px 10px;
+  font-weight: bolder;
+  margin-top: -5px;
+  margin-right: -5px;
+}
